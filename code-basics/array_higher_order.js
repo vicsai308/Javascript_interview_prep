@@ -38,3 +38,11 @@ console.log("Even numbers:", evenNumbers);
 console.log("\nUsing reduce:");
 const sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
 console.log("Sum of all numbers:", sum);
+
+// 7. includes: Checks if an array contains a specific element.
+// Returns true if the element is found, otherwise false.
+console.log("\nUsing includes:");
+const hasFive = numbers.includes(5);
+console.log("Does the array include 5?", hasFive);
+const hasEleven = numbers.includes(11);
+console.log("Does the array include 11?", hasEleven);
